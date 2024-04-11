@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.*;
 
 public class SafeInput {
 
@@ -17,16 +18,6 @@ public class SafeInput {
         return fname + " " + lname;
     }
 
-    public static int twoNumbers(int a, int b){
-
-        int c = 0;
-
-        c = a + b;
-
-        return c;
-    }
-
-
     public static void prettyHeader(String msg) {
 
         int totalSpaces = 60 - 6 - msg.length();
@@ -40,7 +31,6 @@ public class SafeInput {
             rightSpace = totalSpaces / 2;
             leftSpace = rightSpace + 1;
         }
-
 
         //Print Top Border
         for(int i = 0; i <= 61; i++){
@@ -262,6 +252,79 @@ public class SafeInput {
           //Unused
           return "match not found";
    }
+
+    //Array Method returning min value in array
+    public static int getArrayMin(int values[]){
+        int min = 0;
+
+        min = values[0];
+        //Linear Scan for minimum value
+        for (int i = 0; i < values.length; i++){
+            if (values[i] < min){
+                min = values[i];
+            }
+        }
+        return min;
+    }
+
+    //Array Method returning max value in array
+    public static int getArrayMax(int values[]){
+        int max = 0;
+
+        max = values[0];
+        //Linear Scan for maximum value
+        for (int i = 0; i < values.length; i++){
+            if (values[i] > max){
+                max = values[i];
+            }
+        }
+        return max;
+    }
+    //Array Method returning number of times target is found in array
+    public static int arrayOccurrenceScan(int values[], int target){
+        int count = 0;
+        //Loop for Array Length && add to count if target is found
+        for (int i = 0; i < values.length; i++){
+            if (values[i] == target){
+                count += 1;
+            }
+        }
+        return count;
+    }
+    //Array Method returning sum of array elements
+    public static int arraySum(int values[]){
+        int sum = 0;
+        //iterate through array && add value to sum
+        for (int i = 0; i < values.length; i++){
+            sum = sum + values[i];
+        }
+        return sum;
+    }
+
+    //Array Method returning true if array contains target
+    public static boolean arrayContains(int values[], int target){
+        int sentinel = -1;
+        //Search for occurrence
+        for (int i = 0; i < values.length; i++){
+            //if target exists...
+            if (values[i] == target){
+                return true;
+
+            }
+        }
+        return false;
+    }
+    //Array Method returning average of array
+    public static double getArrayAverage(int values[]){
+        double average = 0;
+        double sum = 0;
+        for (int i = 0; i < values.length; i++){
+            sum = sum + values[i];
+        }
+        average = sum / values.length;
+
+        return average;
+    }
 
 
 
