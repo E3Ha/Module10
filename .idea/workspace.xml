@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2094ec-2e72-4973-996c-4a2a77bfeb52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SafeInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SafeInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,9 +59,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Practice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice2" />
+      <module name="Module10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Practice1" />
+        <item itemvalue="Application.Practice2" />
         <item itemvalue="Application.NoteAssignment" />
       </list>
     </recent_temporary>
@@ -89,12 +97,20 @@
       <option name="project" value="LOCAL" />
       <updated>1714153792739</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4/29/2024 1:40">
+      <created>1714412438328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714412438329</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4/11/2024 1:38" />
     <MESSAGE value="4/26/2024 1:50" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/26/2024 1:50" />
+    <MESSAGE value="4/29/2024 1:40" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/29/2024 1:40" />
   </component>
 </project>

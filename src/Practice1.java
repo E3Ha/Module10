@@ -6,10 +6,10 @@ public class Practice1 {
 
         ArrayList<String> lastNames = new ArrayList<String>();
         Scanner scan = new Scanner(System.in);
-
         boolean continueYN = false;
         String name = "";
-        //create a loop to populate array list
+
+        //Create a loop to populate array list
         do{
             name = SafeInput.getNonZeroLenString(scan, "Last Name ");
             lastNames.add(name);
@@ -17,18 +17,23 @@ public class Practice1 {
         }
         while(!continueYN);
 
-
+        //Print list
+        System.out.println();
         for(int i = 0; i < lastNames.size();i++) {
             System.out.print(i+1+".");
             System.out.println(lastNames.get(i));
         }
-
+        //Remove List Items
         for(int i = 0; i < lastNames.size();i++) {
-            if (lastNames.size() > 6 ) {
+            name = lastNames.get(i);
+            if (name.length() > 6 ) {
                 lastNames.remove(i);
             }
         }
-      System.out.println();
+        //Print list
+        System.out.println();
+        System.out.println("Removing all names greater than 6 characters...");
+        System.out.println();
         for(int i = 0; i < lastNames.size();i++) {
             System.out.print(i+1+".");
             System.out.println(lastNames.get(i));
