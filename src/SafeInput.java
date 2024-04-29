@@ -77,6 +77,7 @@ public class SafeInput {
         do {
             System.out.print("\n" +prompt + ": "); // show prompt add space
             retString = pipe.nextLine();
+            System.out.println();
         }
         while(retString.length() == 0);
         return retString;
