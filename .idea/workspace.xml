@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2094ec-2e72-4973-996c-4a2a77bfeb52" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/QuidditchTournament.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Practice3">
+  <component name="RunManager" selected="Application.QuidditchTournament">
     <configuration name="NoteAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NoteAssignment" />
       <module name="Module10" />
@@ -70,8 +70,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuidditchTournament" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuidditchTournament" />
+      <module name="Module10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuidditchTournament" />
         <item itemvalue="Application.Practice3" />
         <item itemvalue="Application.Practice1" />
         <item itemvalue="Application.Practice2" />
@@ -123,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714589650403</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="5/2/2024 1:45">
+      <created>1714671963954</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714671963954</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +147,7 @@
     <MESSAGE value="4/29/2024 1:40" />
     <MESSAGE value="4/29/2024 2:07" />
     <MESSAGE value="5/1/2024 2:53" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/1/2024 2:53" />
+    <MESSAGE value="5/2/2024 1:45" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/2/2024 1:45" />
   </component>
 </project>
