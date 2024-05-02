@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714413983211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5/1/2024 2:53">
+      <created>1714589650403</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714589650403</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -124,6 +131,7 @@
     <MESSAGE value="4/26/2024 1:50" />
     <MESSAGE value="4/29/2024 1:40" />
     <MESSAGE value="4/29/2024 2:07" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/29/2024 2:07" />
+    <MESSAGE value="5/1/2024 2:53" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/1/2024 2:53" />
   </component>
 </project>

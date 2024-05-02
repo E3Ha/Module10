@@ -22,6 +22,8 @@ public class Practice3 {
 
         //Print list
         System.out.println();
+        System.out.println("Teams: ");
+        System.out.println();
         for(int i = 0; i < NFLTeams.size();i++) {
             System.out.print(i+1+".");
             System.out.println(NFLTeams.get(i));
@@ -62,15 +64,21 @@ public class Practice3 {
 
         int team1Score = rand.nextInt(60) + 60;
         int team2Score = rand.nextInt(60) + 60;
-
+        //If team1's score is greater than team2...
         if (team1Score > team2Score){
-            teamsArray.remove(team2);
+            //Output to user and remove team2
             System.out.println("The team: " + teamsArray.get(team1) + " won against team: " + teamsArray.get(team2));
+            System.out.println(teamsArray.get(team1) + " | " + team1Score + ", " + teamsArray.get(team2) + " | " + team2Score);
+            teamsArray.remove(team2);
         }
+        //if team2's score is greater than team1...
         else if (team1Score < team2Score){
-            teamsArray.remove(team1);
+            //Output to user and remove team1
             System.out.println("The team: " + teamsArray.get(team2) + " won against team: " + teamsArray.get(team1));
+            System.out.println(teamsArray.get(team1) + " | " + team1Score + ", " + teamsArray.get(team2) + " | " + team2Score);
+            teamsArray.remove(team1);
         }
+        //otherwise if they are equal, go into overtime
         else {
             System.out.println("Tie, going into OverTime...");
             do {
@@ -81,11 +89,14 @@ public class Practice3 {
                 team1Score = team1Score + OTscore2;
 
                 if (team1Score > team2Score){
+                    System.out.println("The team: " + teamsArray.get(team2) + " won against team: " + teamsArray.get(team1));
+                    System.out.println(teamsArray.get(team1) + " | " + team1Score + ", " + teamsArray.get(team2) + " | " + team2Score);
                     teamsArray.remove(team2);
                     break;
                 }
                 else if (team1Score < team2Score){
-                    teamsArray.remove(team1);
+                    System.out.println("The team: " + teamsArray.get(team2) + " won against team: " + teamsArray.get(team1));
+                    System.out.println(teamsArray.get(team1) + " | " + team1Score + ", " + teamsArray.get(team2) + " | " + team2Score);                    teamsArray.remove(team1);
                     break;
                 }
             }
