@@ -87,7 +87,7 @@ public class QuidditchTournament {
             System.out.println(teamsArray.get(team1) + " | " + teamsArray.get(team2));
             System.out.println("----------------");
             //Each team randomly scores 0-4 goals per quarter worth 10 points - Add to previous score
-            for (int i = 0; i < 4; i++){
+            for (int i = 1; i < 5; i++){
                 team1QTRScore = rand.nextInt(5) * 10;
                 team2QTRScore = rand.nextInt(5) * 10;
                 team1Score = team1Score + team1QTRScore;
